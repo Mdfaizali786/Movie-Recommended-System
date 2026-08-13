@@ -135,7 +135,7 @@ def poster_grid(cards, cols=6, prefix="grid"):
                 st.markdown(f"<div class='badge'>⭐ {imdb}</div>", unsafe_allow_html=True)
 
                 if m.get("poster_url"):
-                    st.image(m.get("poster_url"), width="stretch")
+                    st.image(m.get("poster_url"), width=200)
 
                 st.markdown(
                     f"<div class='title'>{m.get('title')}</div>",

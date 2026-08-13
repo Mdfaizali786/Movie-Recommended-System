@@ -221,7 +221,7 @@ elif st.session_state.view == "details":
     col1, col2 = st.columns([1,2])
 
     with col1:
-        st.image(data.get("poster_url"), width="stretch")
+        st.image(data.get("poster_url"), width="300")
 
         if st.button("❤️ Add to Watchlist"):
             movie_obj = {
